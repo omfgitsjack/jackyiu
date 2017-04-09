@@ -1,7 +1,5 @@
 
 section {
-    max-width: 1000px;
-    margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 100px;
 
@@ -25,4 +23,72 @@ section {
 
 .intro .content {
     margin-top: 20px;
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+.section-header {
+    font-weight: bold;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.project {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.project h5,
+.project p,
+.section-header {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.image-area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.image .caption {
+    text-align: center;
+    color: #777;
+}
+
+/* Utils */
+
+.muted {
+    color: #777;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.mobile-friendly#ucafe {
+    max-width: 684px;
+    width: 100%;
+}
+
+.mobile-friendly#rockstar-analytics {
+    max-width: 572px;
+    width: 100%;
 }

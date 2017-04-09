@@ -21,7 +21,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/typography.css">
 
@@ -39,67 +38,119 @@
     
     <div class="content">
         <h4 class="profile-name">Jack Yiu</h4>
-        <p>I am a developer who loves building web applications from the ground up. I started my journey focusing entirely on front-end web dev, 
-            but I found myself enjoying the process of developing the backend and enhancing developer productivity by developing new tools and leveraging things like docker</p>
-        <p>I've studied CS at University of Toronto (3.68 CGPA), worked as a Teaching Assitant teaching multiple 3rd & 4th courses on sofware engineering, functional programming and web development.</p>
+        <p>I am a developer who loves building web applications to solve real-life problems and is absolutely nuts about enhancing developer productivity. 
+          I started my journey immersing myself in front-end web development, but I found myself enjoying the process of developing the backend and enhancing 
+          developer productivity by developing new tools and leveraging things like docker.</p>
+        <p>I've studied Computer Science (Co-op) at University of Toronto (3.7 CGPA), worked as a Teaching Assitant teaching courses on sofware engineering, functional programming and web development.</p>
         <p>I've developed over 10+ webapps in the past 3 years using AngularJS 1, ReactJS/Redux and ExtJS.</p>
-        <li><a href="https://www.linkedin.com/in/jack-yiu-1b82945b/" class="social-icon"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="https://github.com/omfgitsjack"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <p>Here's my <a rel="noopener" target="_blank" href="https://www.linkedin.com/in/jack-yiu-1b82945b/">LinkedIn</a>, <a rel="noopener" target="_blank" href="https://github.com/omfgitsjack">Github</a> and <a rel="noopener" href="mailto:jackinyiu@gmail.com">email</a></p>
     </div>
   </section>
 
   <section>
-    <h3>Webapps that I've built</h3>
+    <h3 class="section-header">Web Applications that I've built</h3>
+
     <div class="project">
-      <h5><a href="experience.rockstar-cafe.ca">Rockstar Cafe</a> - An online entrepreneurial community that's all about learning from mentors over coffee.</h5>
-      <p>Rockstar Cafe is a startup that was part of <a href="https://www.nextcanada.com/">Next 36 / Next Canada</a>, it has 200+ users, 30+ communities and numerous partnering organizations.</p>
+      <h5 class="project-title text-centered"><a rel="noopener" target="_blank" href="experience.rockstar-cafe.ca">Rockstar Cafe</a> - An online entrepreneurial community that's all about learning from mentors over coffee.</h5>
+      <p>Rockstar Cafe is a startup that was part of <a rel="noopener" target="_blank" href="https://www.nextcanada.com/">Next 36 / Next Canada</a>, it has 200+ users, 30+ communities and numerous partnering organizations.</p>
       <p>It's a feature-packed web application that enables organizations to create their own brand, analyze community engagement, customize onboarding experience and share resources from their Google Drive.</p>
+      <p>The platform is designed to suggest people based on things you're passionate about and makes it extremely easy to chat online or grab coffee in person.</p>
       <p>I've built the platform from the ground up using ReactJS/Redux, Stylus, NodeJS+ExpressJS, Firebase, Algolia, Heroku, AWS S3 and Docker</p>
+      <div class="image-area">
+        <div class="image">
+          <video src="https://i.gyazo.com/9fbf65a19a068b4cbd2d218b872091a3.mp4" class="full-width" autoplay></video>
+          <!--<img src="https://i.gyazo.com/9fbf65a19a068b4cbd2d218b872091a3.mp4" alt="" class="full-width">-->
+          <p class="caption">Rockstar Cafe lets you discover people and communities</p>
+        </div>
+        <div class="image">
+          <img id="rockstar-analytics" src="https://i.gyazo.com/39a896db046f55ddcc19c64e84962508.gif" alt="" class="mobile-friendly">
+          <p class="caption">Analytics for Paid Partners</p>
+        </div>
+      </div>
     </div>
+
     <div class="project">
-      <h5><a href="https://kanhub.me:8080/">KanHub</a> - A chrome-extension that enables users to easily organize real-time standups and track team progress within Github.</h5>
-      <p><a href="https://github.com/omfgitsjack/kanhub">Open-source</a> chrome-extension that enables github contributors and collaborators to organize themselves into teams and hold daily standups without leaving Github.</p>
+      <h5 class="project-title"><a rel="noopener" target="_blank" href="https://kanhub.me:8080/">KanHub</a> - A chrome-extension that enables users to easily organize real-time standups and track team progress within Github.</h5>
+      <p><a rel="noopener" target="_blank" href="https://github.com/omfgitsjack/kanhub">Open-source</a> chrome-extension that enables github contributors and collaborators to organize themselves into teams and hold daily standups without leaving Github.</p>
       <p>Technologies used: ReactJS, CSS, NodeJS+ExpressJS, Postgres, Redis, SocketIO, Docker and Digital Ocean.</p>
     </div>
+
     <div class="project">
-      <h5><a href="http://ucafe.jackyiu.me">UCafe</a> - An SMS-powered food ordering website that was used by 400+ users</h5>
+      <h5 class="project-title"><a rel="noopener" target="_blank" href="http://ucafe.jackyiu.me">UCafe</a> - An SMS-powered food ordering website that was used by 400+ users</h5>
       <p>Technologies used: Angular JS 1, LESS, PHP + Laravel, MySQL, Digital Ocean.</p>
-      <p><a href="https://github.com/omfgitsjack/text-ordering-app">Link to Github</a></p>
+      <p><a rel="noopener" target="_blank" href="https://github.com/omfgitsjack/text-ordering-app">Link to Github</a></p>
+      <div class="image-area">
+        <div class="image">
+          <img id="ucafe" src="https://i.gyazo.com/e1052b0c085a4b6ef83fb4a501eaf044.gif" class="mobile-friendly">
+          <p class="caption">Landing Page</p>
+        </div>
+      </div>
     </div>
+
     <div class="project">
-      <h5><a href="http://sched.jackyiu.me/#!/schedule/sessions/80/0">University of Toronto (Scarborough Campus) Sports Drop-in Schedule</a> - 
-      A web application that enabled 1000+ students to find out when they can drop in and play a sport with others. The predecessor to this webapp can be played around with <a href="http://jp.jackyiu.me/#/login">here (email: jack@jack.com, pwd: jackjack)</a>, source-code <a href="https://github.com/omfgitsjack/justplay">here</a></h5>
-      <p><a href="https://github.com/omfgitsjack/kanhub">Open-source</a> web application that had over 1000+ monthly active users, was built out of UTSC's incubator: The Hub.</p>
+      <h5 class="project-title"><a rel="noopener" target="_blank" href="http://sched.jackyiu.me/#!/schedule/sessions/80/0">JustPlay</a>
+      A web application that enabled 1000+ students to find out when they can drop in and play a sport with others.</h5>
+      <p><a rel="noopener" target="_blank" href="https://github.com/omfgitsjack/kanhub">Open-source</a> web application that had over 1000+ monthly active users, was built out of UTSC's incubator: The Hub. Here's an article featuring my <a rel="noopener" target="_blank" href="http://www.utsc.utoronto.ca/projects/thehub/2014/12/04/jack-yiu-and-justplay/">webapp</a></p>
+      <p>The predecessor to this webapp can be played around with <a rel="noopener" target="_blank" href="http://jp.jackyiu.me/#/login">here</a> (email: jack@jack.com, pwd: jackjack), source-code <a rel="noopener" target="_blank" href="https://github.com/omfgitsjack/justplay">here</a></p>
       <p>Technologies used: AngularJS 1, LESS, PHP + Laravel, MySQL, Digital Ocean.</p>
+        <div class="image">
+          <img src="https://i.gyazo.com/cc1231604ec0b84b2fea0d513e84887b.gif" class="mobile-friendly">
+          <p class="caption">2 Clicks away from finding others to play sports with.</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <section>
-    <h3>Places I've worked at</h3>
+    <h3 class="section-header">Places I've worked at</h3>
     <div class="project">
-      <h5><a href="http://www.intelligonetworks.com/">IntelliGO Networks</a> - Full-stack developer working on IntelliGO (SC Magazine Awards 2017 Finalist for Best NAC)</h5>
+      <h5 class="project-title"><a rel="noopener" target="_blank" href="http://www.intelligonetworks.com/">IntelliGO Networks</a> - Full-stack developer working on IntelliGO</h5>
       <p>Enhanced the usability of the administrator’s dashboard through the addition of d3-driven graphs and customized filters using ExtJS 4 which ultimately enabled the platform to be recognized as SC Magazine 2017’s Best Network Access Control Finalist</p>
       <p>Built a feature that generates customizable PDF reports according to a predefined schedule, the PDF reports rendered dynamic content from the web-based platform.</p>
     </div>
-      <li><h5><a href="http://www.intelligonetworks.com/">Caseware</a> - Performance Testing & Tooling Developer</h5></li>
-    </ul>
     <div class="project">
-      <h5><a href="http://www.intelligonetworks.com/">IntelliGO Networks</a> - Worked on backend & frontend of IntelliGO (SC Magazine Awards 2017 Finalist for Best NAC)</h5>
+      <h5 class="project-title"><a rel="noopener" target="_blank" href="https://www.caseware.com/">Caseware</a> - Performance Testing & Tooling Developer</h5>
+      <p>Develop tool that automates the process of posting failing tests from Jenkins CI Server to Atlassian Jira</p>
+      <p>Implement, maintain and optimize API testing and performance framework</p>
+      <p>Analysis, extrapolation and benchmarking of large test data to evaluate performance of APIs</p>
     </div>
   </section>
 
   <section>
-    <h3>Static & Landing Pages / Conference Sites / Shopping Web apps I've built & deployed</h3>
+    <h3 class="section-header">Static & Landing Pages / Conference Sites / Shopping Web apps I've built & deployed</h3>
     <div class="project">
-      <h5>TEDxUTSC - A conference site built with Wordpress and CSS</h5>
+      <h5 class="project-title"><a rel="noopener" target="_blank" href="http://tedxutsc.com/">TEDxUTSC</a> - A TEDx talk that had thousands of viewers and trended nationally in Canada.</h5>
+      <p>I designed and built the TEDxUTSC from the ground up with a single mission: to make finding information and details about our events as easy as possible (& minimize clicking).
+      I also managed to secure a tech-talk on augmented reality from the "Father of Wearable Computing" <a rel="noopener" target="_blank" href="http://liangela.com/">Steve Mann</a>.
+      </p>
+      <p>Technologies used: HTML5, CSS, Wordpress, livestream</p>
+      <div class="image-area">
+        <div class="image">
+          <img class="full-width" src="https://i.gyazo.com/d57fd5cc41ab8bb685764ba3ee10b917.gif" alt="">
+          <p class="caption">Executive hiring page</p>
+        </div>
+        <div class="image">
+          <img class="full-width" src="https://i.gyazo.com/4b427aff9701e4c9008e146adc934f0a.gif" alt="">
+          <p class="caption">Homepage</p>
+        </div>
+      </div>
     </div>
     <div class="project">
-      <h5><a href="https://volykos.com/">Volykos</a> - Accessible wireless charging for customers</h5>
-      <p>Technologies used: HTML5, SASS, JS, AWS Cloudfront, AWS S3, AWS Route53</p>
+      <h5 class="project-title"><a rel="noopener" target="_blank" href="https://volykos.com/">Volykos</a> - Accessible wireless charging for customers</h5>
+      <p>I helped design and build Volykos's landing page and subscription payment system. 
+        The system is designed to be able to highly customizable subscription packages for each unique customer, all without writing/changing any code.</p>
+      <p>Technologies used: HTML5, SASS, JS, Stripe, AWS Lambda, AWS Cloudfront, AWS S3, AWS Route53</p>
+      <div class="image-area">
+        <div class="image">
+          <img src="https://i.gyazo.com/6087a40ffdb2c5d920c14535a86d6f50.gif" alt="" class="full-width">
+          <p class="caption">Landing Page</p>
+        </div>
+      </div>
     </div>
     <div class="project">
-      <h5>Tweek - Shopify Site that sells tailor-made shirts</h5>
-      <p>This was a Shopify-based sites equipped with multiple plugins that made it super easy for customers to customize their shirt to their liking.</p>
+      <h5 class="project-title">Tweek - Shopify Store that sells tailor-made shirts</h5>
+      <p>This was a Shopify store that made it super easy for customers to customize their shirt to their liking.</p>
+      <p>Technologies used: Shopify, Liquid</p>
     </div>
   </section>
 
