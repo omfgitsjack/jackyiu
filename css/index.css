@@ -18,6 +18,8 @@ section {
 
 .content {
     max-width: 700px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .intro .content {
